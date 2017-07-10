@@ -1,4 +1,4 @@
-Module Design Pattern
+#Module Design Pattern
 
     (function() {
 
@@ -13,7 +13,7 @@ Module Design Pattern
     })();
 
 
-Revealing Module Design Pattern
+#Revealing Module Design Pattern
 
     (function() {
 
@@ -31,7 +31,7 @@ Revealing Module Design Pattern
     })();
 
 
-Prototype Design Pattern
+#Prototype Design Pattern
 
     var className = function() {
         this.name = "";
@@ -43,7 +43,7 @@ Prototype Design Pattern
     className.prototype.put = function() {};
 
 
-Revealing Prototype Design Pattern
+#Revealing Prototype Design Pattern
 
     var className = function() {
         this.name = "";
