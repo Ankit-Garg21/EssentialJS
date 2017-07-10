@@ -60,3 +60,23 @@
             put: put
         }
     }
+    
+    
+#Singleton Design Pattern
+    var singleTon = (function() {
+        var singletonInstance;
+        function create() {
+            return {
+                
+            };
+        };
+        
+        return {
+            initialize: function() {
+                if( !singletonInstance ) {
+                    singletonInstance = create();
+                }
+                return singletonInstance;
+            }
+        }
+    })();
