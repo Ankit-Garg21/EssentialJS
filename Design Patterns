@@ -1,0 +1,30 @@
+Module Design Pattern
+
+    (function() {
+
+      // Declare private variables and/or functions
+
+      return {
+        // Declare public variables and/or functions
+        name: function() {},
+        key: value
+      }
+
+    })();
+    
+ Revealing Module Design Pattern
+
+    (function() {
+
+      // Declare private variables and/or functions
+      var func1 = function() {};
+      
+      var func2 = function() {};
+      
+      return {
+        // Declare public variables and/or functions
+        func1: func1,
+        func2: func2
+      }
+
+    })();
