@@ -11,16 +11,17 @@ Module Design Pattern
       }
 
     })();
-    
- Revealing Module Design Pattern
+
+
+Revealing Module Design Pattern
 
     (function() {
 
       // Declare private variables and/or functions
       var func1 = function() {};
-      
+
       var func2 = function() {};
-      
+
       return {
         // Declare public variables and/or functions
         func1: func1,
@@ -28,3 +29,34 @@ Module Design Pattern
       }
 
     })();
+
+
+Prototype Design Pattern
+
+    var className = function() {
+        this.name = "";
+        this.prop = {};
+    }
+    
+    className.prototype.get = function() {};
+    
+    className.prototype.put = function() {};
+
+
+Revealing Prototype Design Pattern
+
+    var className = function() {
+        this.name = "";
+        this.prop = {};
+    }
+    
+    className.prototype = function() {
+        var get = function() {}:
+        
+        var put = function() {};
+        
+        return {
+            get: get,
+            put: put
+        }
+    }
